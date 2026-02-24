@@ -1,9 +1,5 @@
-from textnode import TextNode
-
-
 def main():
-    val = TextNode()
-    print(val)
+    print("hello world")
 
 
 if __name__ == "__main__":
