@@ -109,10 +109,10 @@ class TestFunc(unittest.TestCase):
             TextNode("bold text", TextType.BOLD),
         ]
 
-        print("———————————")
-        print(f"Expected: {expected}")
-        print("———————————")
-        print(f"Actual: {new_nodes}")
+        # print("———————————")
+        # print(f"Expected: {expected}")
+        # print("———————————")
+        # print(f"Actual: {new_nodes}")
 
         self.assertListEqual(expected, new_nodes)
 
