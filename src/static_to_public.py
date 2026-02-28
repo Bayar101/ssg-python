@@ -59,7 +59,7 @@ def path_action(target_path, dirs, copy_dest=None):
         action_remove(target_path, dirs)
 
 
-def static_to_public(dest="./public", source="./static"):
+def static_to_public(dest="./docs", source="./static"):
     dest_abs_path, dest_dirs = get_path_dirs(dest)
     source_abs_path, source_dirs = get_path_dirs(source)
 
